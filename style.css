@@ -1,0 +1,88 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+
+/* font-family: 'Cursed Timer ULiL', sans-serif;   
+font-family: 'Montserrat', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+html, body{
+    font-size: 16px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1em;
+    text-align: center;
+    color: white;
+
+}
+
+.counter {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 5.5rem;
+    border-radius: 5px;
+    background-color: #080001;
+    margin: 1.5rem 0rem;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+
+.scoreboard {
+    background-color: #1B244A;
+    max-width: 90vw;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.scoreboard.gamestats {
+    padding: 1rem;
+    background-color: white;
+    color: #1B244A;
+}
+
+
+button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 10px;
+    background-color:  #fff0;
+    border: solid 2px #9AABD8;
+    color: #9AABD8;
+}
+
+#startnewgame {
+    border: solid 2px  #1B244A;
+    color:  #1B244A;
+}
+
+
+/* MEdia queries */
+
+@media screen and (min-width:1024px) {
+    .scoreboard {
+        max-width: 40vw;
+        padding: 5rem;
+
+    
+    }
+}
